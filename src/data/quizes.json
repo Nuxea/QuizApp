@@ -1,0 +1,815 @@
+[
+  {
+    "id": 1,
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--I4FWon9Y--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg",
+    "name": "Vue.JS Débutant",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Qui a créé Vue.JS ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Robert Vue",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Mark Zuckerberg",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Evan You",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Nicolas Cage",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Quelles sont les 3 parties définissant un composant Vue ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "script, template, methods",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "template, style, script",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "script, template, css",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Par quel moyen passe-t-on une information d'un composant parent à un composant enfant ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Par un attribut chaîné",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Par un callback",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Par un attribut data-",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Par une prop",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Peut-on utiliser Vue de manière indépendante (script src...) sans passer par une compilation complète (avec WebPack ou Vite) ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Oui",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Non",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Seulement si jQuery est chargé",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Quelle est la syntaxe pour passer une valeur dynamique \"Kiwi\" à une prop ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-bind:kiwi=\"kiwi\"",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-key:kiwi=\"kiwi\"",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-model:kiwi=\"kiwi\"",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Quel module permet à Vue de partager des données entre tous les composants ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "ShareData",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Pinia",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "DataLoader",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "ReduxStore",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Quel est l'attribut nécessaire lorsqu'on crée une boucle v-for ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-id",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-key",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-loop",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "v-while",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Quelle instruction permet de router vers une autre vue ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "this.$router.push(url)",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "this.$router.go(url)",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "this.$router.change(url)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Comment peut-on surveiller un changement de valeur dans les données pour déclencher une action ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "En utilisant MutationObserver",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "En utilisant setInterval dans methods",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "En utilisant watch ou watchEffect",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Quelle directive associe un champ input à une donnée de composant (data) ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-model",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-bind",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-store",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "v-input",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--I4FWon9Y--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg",
+    "name": "Vue.JS Confirmé",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Quelle méthode permet d'être sûr d'exécuter une instruction lorsque le DOM a bien été mis à jour ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Vue.sync",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Vue.nextTick",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Vue.refresh",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Vue.await",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Comment peut-on accéder à un élément du DOM natif dans une méthode (fonction du composant) Vue ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Avec v-node et un callback",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Avec un attribut id et un appel à document.getElementById",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Avec une ref",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Comment peut-on récupérer le paramètre \"id\" d'une URL interprétée par le routing \"document/:id\" ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "$route.params.id",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "$route.vars['id']",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "$route.query.id",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "$route.document.id",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Quelles directives ne faut-il pas mélanger sur même élément ou composant ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-if et v-bind",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-text et v-on",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-show et v-model",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "v-for et v-if",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Quel est le nom de la syntaxe (sucre syntaxique) que l'on peut utiliser avec <script setup> ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Options API",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Composition API",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "GlobalLint",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "TypeScript",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Quelle variable spéciale contient l'événement natif attrapé par v-on ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "$event",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "nativeEvent",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "e",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "e.native",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Quelle est la structure de store (Pinia) qui permet de modifier une donnée ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Un getter",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Un plugin",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Une action",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Quel est le bon ordre d'exécution de ces hooks de composant ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "created, beforeMount, mounted, updated",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "mounted, beforeCreate, created, destroyed",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "created, beforeUpdate, update, mounted",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Pourquoi faut-il nommer ses composants au moins en deux parties (ex: \"EventList\" ou \"event-list\" plutôt que \"events\") ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Pour éviter les conflits de nom avec les éléments HTML natifs",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Pour forcer la copie et éviter les conflits de données entre composants",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Pour éviter les fuites de mémoire (memory leak)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Une image est-elle chargée par le navigateur lorsqu'elle est \"masquée\" par v-show ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Oui",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Non",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Seulement si c'est un gif animé de Chuck Norris",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--I4FWon9Y--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg",
+    "name": "Vue.JS Expert",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Quelle est la structure native de JavaScript qui permet à Vue 3 d'être réactif lorsqu'on change des données ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "ReactData",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Proxy",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Ajout d'un setter au prototype des variables",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Quelle est la technique pour rendre un \"computed\" modifiable ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Le découper en deux méthodes set et get",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Lui associer une directive v-sync",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Il faut le placer dans la propriété \"data\" du composant",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Quelle instruction permet de restreindre la portée des styles au composant lui-même ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "L'attribut scoped dans les styles",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "La directive v-scope",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "La propriété scoping:true",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Quel modificateur peut-on utiliser sur une directive v-on pour ne déclencher que si l'événement provient du composant lui-même ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-on:click.once",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-on:click.self",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-on:click.this",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Quelle instruction permet de garder les composants et leurs données en cache lorsqu'ils sont inactifs ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<keep-alive>",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<template cache>",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<slot>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Quelle directive permet de créer des emplacements de contenu pour remplir un composant avec un ou plusieurs autres composants voire du code HTML ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "v-inject",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "v-slot",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "v-inside",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "v-html",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "Quel composant spécifique déjà inclus dans Vue permet de transporter un composant à un autre endroit du DOM ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "attachDOM",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "moveTo",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "TransportTo",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Teleport",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Comment peut-on générer un composant à la demande, dont le nom \"composant\" est stocké dans une variable ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "<render template=\"composant\">",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "<component render=\"composant()\">",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "<component :is=\"composant\">",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "Comment partager des bouts de code communs entre composants ? (données, hooks, méthodes)",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Avec un héritage",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Avec extends",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Avec des composables",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Comment forcer le rafraîchissement d'un composant ?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Avec this.$update();",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Avec :key auquel on indique une variable changeante",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Avec this.$router.push('#') juste après un appel à this.nextTick",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]
